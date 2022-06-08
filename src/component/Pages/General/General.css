@@ -1,0 +1,22 @@
+.dateLocationName {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.generalHeading{
+    background-color: red;
+    padding: 13px;
+    color: white;
+}
+.Generalbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 10%;
+}
+.endComment{
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}

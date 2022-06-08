@@ -1,0 +1,27 @@
+.matchtype{
+    display: flex;
+    flex-direction: column;
+     width: 99vw;
+    height: 99vh; 
+    position: absolute;
+    
+}
+.Heading {
+    background-color: red;
+    padding: 13px;
+    color: white;
+}
+.Heading span{
+    padding: 2em 4em;
+    color: white;
+}
+.body{
+    padding: 3rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.body select{
+    padding: 5px 30px;
+
+}

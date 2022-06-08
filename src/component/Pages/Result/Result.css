@@ -1,0 +1,13 @@
+.Result table tr th {
+  background-color: red;
+  padding: 10px 25px;
+  color: white;
+}
+.Result table tr td {
+  padding: 10px 25px;
+}
+.Result {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}

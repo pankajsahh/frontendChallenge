@@ -1,0 +1,58 @@
+.TeamHeading{
+    background-color: red;
+    padding: 13px;
+    color: white;
+}
+.TeamMach{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 10%;
+}
+
+
+
+.Teams {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+
+.decision{
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.teamresult{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.teamresult select{
+    padding: 10px 30px;
+}
+
+
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
