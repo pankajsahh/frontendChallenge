@@ -3,8 +3,8 @@ import Context from "./Context";
 
 const Shop = (props) => {
   
-  const AllDataList = [];
-  const [data, setdata] = useState({
+  const [AllDataList,setAllDataList] = useState([]);
+  const defData = {
     Tournament_type: "Friendly",
     Team1name: "",
     Team1result: "Home",
@@ -15,10 +15,16 @@ const Shop = (props) => {
     location: "",
     startDate: "",
     team2result: "Home",
-  });
+  }
+  const [data, setdata] = useState(defData);
 
   function addDataTOlist() {
-    AllDataList.push(data);
+    console.log("hello")
+   setAllDataList([
+     ...AllDataList,data
+   ])
+   console.log("callled")
+   setdata(defData);
     console.log("data",data);
     console.log("alldata",AllDataList)
   }
