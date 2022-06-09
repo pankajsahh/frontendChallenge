@@ -1,7 +1,9 @@
-# Technical Assignment - Frontend Developer Intern at Athlyst
+# Technical Assignment - Frontend Developer Intern at Athlyst [link to website](https://athlyte.netlify.app/)
 ## _Pankaj sahu_
 
-[![pankaj|sahu](https://cldup.com/dTxpPi9lDf.thumb.png)]()
+# Links
+- # [link to website](https://athlyte.netlify.app/)
+- # [ link to github ](https://github.com/pankajsahh/frontendChallenge)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
