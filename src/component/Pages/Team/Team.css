@@ -2,27 +2,22 @@
     background-color: red;
     padding: 13px;
     color: white;
+    width: 100%;
 }
 .TeamMach{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: baseline;
-    padding: 10%;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
-
-
 
 .Teams {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
-
-
-
 .decision{
-    margin: 20px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 .teamresult{
@@ -33,9 +28,6 @@
 .teamresult select{
     padding: 10px 30px;
 }
-
-
-
 .separator {
     display: flex;
     align-items: center;

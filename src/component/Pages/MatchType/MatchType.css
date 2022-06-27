@@ -1,12 +1,12 @@
 .matchtype{
     display: flex;
     flex-direction: column;
-     width: 99vw;
-    height: 99vh; 
     position: absolute;
-    
+    width: 100%;
 }
 .Heading {
+    box-sizing: border-box;
+    width: 100%;
     background-color: red;
     padding: 13px;
     color: white;
@@ -16,10 +16,11 @@
     color: white;
 }
 .body{
-    padding: 3rem;
-    display: inline-flex;
+   
+    display: flex;
     flex-direction: column;
     align-items: baseline;
+    padding: 5% 5%;
 }
 .body select{
     padding: 5px 30px;

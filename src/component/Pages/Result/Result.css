@@ -11,3 +11,17 @@
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+  .Result {
+    font-size: 0.5em;
+  }
+  .Result table tr th {
+    background-color: red;
+    padding:2px 3px;
+    color: white;
+  }
+  .Result table tr td {
+    padding: 2px 3px;
+  }
+  
+}
